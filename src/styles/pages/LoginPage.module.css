@@ -1,0 +1,80 @@
+.loginPage {
+  background: var(--blue);
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .loginPage header img {
+  fill: #fff;
+  color: #fff;
+} */
+
+.formContainer header img {
+  width: 360px;
+}
+
+.loginBody {
+  width: 340px;
+  margin-top: 6rem;
+}
+
+.loginBody img {
+  height: 40px;
+  width: 40px;
+}
+
+.loginBody > div {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0 2.8rem;
+}
+
+.loginBody > div p {
+  color: var(--text-highlight);
+  margin-left: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.loginBody h3 {
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.formContainer form {
+  width: 420px;
+}
+
+.formContainer form input {
+  width: 340px;
+  height: 80px;
+
+  padding-left: 1.5rem;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+
+  color: var(--white);
+
+  background: -webkit-linear-gradient(
+    to righ,
+    var(--blue-dark) 20%,
+    var(--blue) 80%
+  );
+  background: linear-gradient(to right, var(--blue-dark) 20%, var(--blue) 80%);
+}
+
+.formContainer form input::placeholder {
+  color: var(--text-highlight);
+}
+
+.formContainer form button {
+  height: 80px;
+  width: 80px;
+  background: var(--blue-dark);
+  color: var(--white);
+  border: 0;
+
+  border-radius: 0 5px 5px 0;
+}
